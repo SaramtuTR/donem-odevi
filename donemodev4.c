@@ -12,7 +12,7 @@ int main(){
     SezarSifreleme(mesaj, anahtar);
     printf("Sifrelenmis mesaj: %s", mesaj);
     SezarCozum(mesaj, anahtar);
-    
+    printf("cozulmus mesaj: %s",mesaj);
 return 0;
 }
 void SezarSifreleme(char mesaj[], int anahtar){
